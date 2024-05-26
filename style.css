@@ -14,7 +14,6 @@ body {
 ::-webkit-scrollbar{
     display: none;
 }
-
 *, html {
     --primaryGradient: linear-gradient(93.12deg, #581B98 0.52%, #9C1DE7 100%);
     --secondaryGradient: linear-gradient(268.91deg, #581B98 -2.14%, #9C1DE7 99.69%);
@@ -22,6 +21,54 @@ body {
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
     --primary: #581B98;
 }
+
+.nav-bar{
+    height: 50px;
+    display: flex;
+    background-color: #babac1;
+}
+
+.logo{
+    width: 70%;
+    height: 40px;
+    padding-top: 14px;
+    padding-left: 5px;
+    text-align: start;
+}
+
+.login{
+    display: flex;
+    width: 30%;
+    padding: 10px;
+}
+
+.button1 {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    height: 30px;
+    background-color: #2ba8fb;
+    color: #ffffff;
+    font-weight: Bold;
+    margin-left: 20px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+
+  }
+  
+  button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
 
 header {
     background: url('https://source.unsplash.com/1600x900/?nature') no-repeat center center fixed;
@@ -53,7 +100,7 @@ header {
  
  .news p{
      padding: 20px;
-     color: white;
+     color: rgb(25, 24, 24);
  }
  .main-contant{
      width: 100vw;
@@ -72,12 +119,12 @@ header {
      margin-top: 20px;
      margin-bottom: 20px;
      text-align: start;
-     color: white;
+     color: rgb(25, 24, 24);
  }
  
  .article li{
      text-align: start;
-     color: white;
+     color: rgb(25, 24, 24);
  }
  
  .article h2,h4,h1{
